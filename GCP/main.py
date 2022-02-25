@@ -34,7 +34,7 @@ def predict(request):
         Image.open(image).convert("RGB").resize((128, 128))
     )
     print(image.shape)
-    image = image/255
+    #image = image/255
     image_array = tf.expand_dims(image, 0)
     print("###preprcessing finished")
 
