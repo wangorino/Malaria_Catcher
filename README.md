@@ -8,8 +8,8 @@ https://europe-west6-meta-iterator-337819.cloudfunctions.net/function-get_predic
 ## Access via API-Platform: 
 - set the type of request from *"GET"* to ***"POST"***
 - Go to *"Body"*
-- add a *KEY* and name it **"file"**
-- set the type of *KEY* as *"File"*
+- Change *"none"* to *"form-data"*
+- add a *KEY* as *"File"* and name it **"file"**
 - **select the file** you want to have evaluated in *"Value"*
 - *Send*
 
