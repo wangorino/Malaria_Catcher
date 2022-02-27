@@ -16,7 +16,7 @@ https://europe-west6-meta-iterator-337819.cloudfunctions.net/function-get_predic
 ## Files included in the repository:
 - Selection of ***Images***. You can use them in your POST requests. 
 - The called ***function*** in GCP 
-- An ***api script*** that runs a local server for testing purposes before deployment to GCP. 
+- An ***api script*** that runs a local server for testing purposes before I deployed it to GCP. 
 The server runs on **localhost:8000/predict**. You can also reach it via Postman. 
 - ***Models*** used for the evaluation. The one currently used is **"v2_e50.h5"**. It's also available in the standard folder format.
 - Jupyter Notebook of the ***model training*** process.
